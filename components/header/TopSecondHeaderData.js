@@ -1,0 +1,45 @@
+import React from "react";
+export const TopSecondHeaderData = [
+  {
+    title: "Preferences",
+    path: "eRADWeb/preferences",
+    id: "preferences",
+    cName: "fontsize nav-item m-1 text-secondary text-black",
+    disabled: false,
+    isSideBar: true,
+    pName: "Settings",
+  },
+  {
+    title: "Resident Letters",
+    path: "eRADWeb/residentletter",
+    id: "residentlettters",
+    cName: "fontsize nav-item m-1 text-secondary text-black",
+    disabled: false,
+    isSideBar: true,
+    pName: "Settings",
+  },
+  {
+    title: "Authorisation",
+    path: "eRADWeb/authorisation",
+    id: "authorisation",
+    cName: "fontsize nav-item m-1 text-secondary text-black",
+    disabled: false,
+    pName: "Settings",
+  },
+  {
+    title: "Liquidity",
+    path: "eRADWeb/liquidity",
+    id: "headoffice",
+    cName: "fontsize nav-item m-1 text-secondary text-black",
+    disabled: false,
+    pName: "Settings",
+  },
+  {
+    title: "Fees & Charges",
+    path: "eRADWeb/feeAndCharges",
+    id: "feescharges",
+    cName: "fontsize nav-item m-1 text-secondary text-black",
+    disabled: false,
+    pName: "Settings",
+  },
+];
